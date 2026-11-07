@@ -1,13 +1,25 @@
 {
   "name": "@felipewatter/passkey-assertion-guard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Offline WebAuthn authentication assertion verifier with in-memory one-time challenges, RP binding and sign counter rules",
   "type": "module",
-  "engines": {"node": ">=22"},
+  "engines": {
+    "node": ">=22"
+  },
   "main": "./src/index.js",
-  "exports": {".": "./src/index.js"},
-  "bin": {"passkey-guard": "./src/cli.js"},
-  "files": ["src", "README.md", "SECURITY.md", "LICENSE", "docs"],
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "passkey-guard": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE",
+    "docs"
+  ],
   "license": "MIT",
   "author": "Felipe Watter",
   "scripts": {
