@@ -122,7 +122,7 @@ O exemplo acima é **um esqueleto de integração, não um servidor executável*
 - **Sem identidade de usuário nem sessão HTTP**: autenticador confirma posse da chave vinculada à credencial, não autorização individual, autenticação federada ou transporte HTTP seguro.
 - **Comparação de flags/UV** não garante que a plataforma inteira esteja íntegra ou que uma chave foi provisionada com a política de segurança desejada.
 
-Consulte [SECURITY.md](SECURITY.md), [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md) e [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Consulte [SECURITY.md](SECURITY.md), [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md), [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) e **[Guia de armazenamento distribuído e transações](docs/DISTRIBUTED_STORE.md)**.
 
 ## Testes e CI
 
